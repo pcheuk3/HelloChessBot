@@ -22,7 +22,7 @@ A demonstration video will be available soon.
 ## Quick Start (Windows)
 
 1. Download the latest release from:
-
+https://drive.google.com/file/d/16X0kYC6W0h4M-HK8aYr6IwqG3TIfKuot/view?usp=sharing
 2. Unzip the file.
 3. Double click `HelloChessBot.exe` to launch.
 
