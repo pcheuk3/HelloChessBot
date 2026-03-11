@@ -26,6 +26,10 @@ A demonstration video will be available soon.
 2. Unzip the file.
 3. Double click `HelloChessBot.exe` to launch.
 
+## User Feedback Survey Form
+
+- https://docs.google.com/forms/d/e/1FAIpQLSfwd12r6qjDhoHnM6fyEnHpjl69Vac_fpbShUTTZHqAG5fXUA/viewform?usp=dialog
+
 ## Core Controls (Keyboard)
 
 - **Tab**: move focus through available UI options.
