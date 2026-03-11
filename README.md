@@ -1,6 +1,6 @@
 # ♟️HelloChessBot
 
-HelloChessBot is nhanced version of [NeoChessBot](https://github.com/lamekid123/NeoChessBot). It is designed to help **visually impaired users** play on **Chess.com**. The application integrates **Chess.com** with **voice interaction**, **keyboard navigation**, and **AI-powered assistance**, enabling players to enjoy chess without relying heavily on visual interaction.
+**HelloChessBot** is enhanced version of [NeoChessBot](https://github.com/lamekid123/NeoChessBot). It is designed to help **visually impaired users** play on **Chess.com**. The application integrates **Chess.com** with **voice interaction**, **keyboard navigation**, and **AI-powered assistance**, enabling players to enjoy chess without relying heavily on visual interaction.
 
 ## Key Features
 
