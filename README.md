@@ -22,14 +22,14 @@ A demonstration video will be available soon.
 ## Quick Start (Windows)
 
 1. Download the latest release from:
-https://drive.google.com/file/d/1jHpnM4P8rIkgSSxdV7n5__mgH35BYap2/view?usp=sharing (12/3/2026)
+https://drive.google.com/file/d/1fjCBZAXqrJhtz8TCRp9bTiARbWV4PH-O/view?usp=sharing (updated on 17/3/2026)
 2. Unzip the file.
 3. Double click `HelloChessBot.exe` to launch.
 4. **It is recommended login your chess.com account to enjoy full function**
 
 ## User Feedback Survey Form
 
-- https://docs.google.com/forms/d/e/1FAIpQLSfwd12r6qjDhoHnM6fyEnHpjl69Vac_fpbShUTTZHqAG5fXUA/viewform?usp=dialog
+https://forms.gle/2f7bnKN2iCDa4tbA7
 
 ## Core Controls (Keyboard)
 
