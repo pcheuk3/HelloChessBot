@@ -23,9 +23,9 @@ A demonstration video will be available soon.
 
 1. Download the latest release from:
 https://drive.google.com/file/d/1fjCBZAXqrJhtz8TCRp9bTiARbWV4PH-O/view?usp=sharing (updated on 17/3/2026)
-2. Unzip the file.
-3. Double click `HelloChessBot.exe` to launch.
-4. **It is recommended login your chess.com account to enjoy full function**
+3. Unzip the file.
+4. Double click `HelloChessBot.exe` to launch.
+5. **It is recommended login your chess.com account to enjoy full function**
 
 ## User Feedback Survey Form
 
