@@ -1,0 +1,10 @@
+requests
+python-dotenv
+pyaudio==0.2.14
+chess==1.10.0
+PyAutoGUI==0.9.54
+PyQt6==6.7.0
+PyQt6_sip==13.6.0
+pyttsx3==2.71   ##2.90 windows can't stop issues
+PyQt6-WebEngine==6.6.0
+PyQt6-WebEngine-Qt6==6.6.1

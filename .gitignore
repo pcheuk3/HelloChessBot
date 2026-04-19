@@ -1,0 +1,38 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Build / packaging
+build/
+dist/
+*.spec.bak
+*.egg-info/
+
+# Tool caches
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.idea/
+.vscode/
+
+# Logs / temp
+*.log
+*.tmp
+tmp/
+temp/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Project-specific generated folders
+neochessbot_master_lang/build/
+neochessbot_master_lang/dist/
+neochessbot_master_lang/ui/Tmp/
