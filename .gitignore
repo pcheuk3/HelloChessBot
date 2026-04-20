@@ -1,0 +1,22 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Env
+.env
+.venv/
+venv/
+
+# Local model/cache (too large for git)
+hf_cache/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local binary larger than GitHub file limit
+engines/stockfish/stockfish-windows-x86-64.exe
