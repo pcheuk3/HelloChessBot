@@ -1,6 +1,6 @@
 # ♟️HelloChessBot
 
-HelloChessBot is enhanced version of [NeoChessBot](https://github.com/lamekid123/NeoChessBot). It is designed to help visually impaired users play on Chess.com. The application integrates **Chess.com gameplay** with **voice interaction**, **keyboard navigation**, and **AI-powered assistance**, enabling players to enjoy chess without relying heavily on visual interaction.
+HelloChessBot is enhanced version of [NeoChessBot](https://github.com/lamekid123/NeoChessBot). It is designed to help visually impaired users play on Chess.com. The application integrates **Chess.com gameplay** with **voice interaction**, **keyboard navigation**, and **AI chatbot**, enabling players to enjoy chess without relying heavily on visual interaction.
 
 ## Key Features
 
@@ -8,12 +8,13 @@ HelloChessBot is enhanced version of [NeoChessBot](https://github.com/lamekid123
 - **Keyboard-driven navigation** (tab/enter/space) suitable for screen-reader workflows.
 - **Multiple input methods**: command panel (UCI/SAN), arrow-board navigation, and voice input.
 - **Voice input** powered by the Whisper model for move commands and UI actions.
-- **AI Chat Bot assistant** that answers user questions and performs requests by keywords.
+- **AI Chat Bot assistant** that answers user questions and **performs requests**.
 - **Multiple game modes**: support play vs computer, online opponents, and puzzle mode on chess.com.
 - **Game review and analysis** with move-by-move feedback and best-move hints.
 - **Macro view** to announce vulnerable pieces being attacked.
-- **User preference settings** for speech engine on/off, rate, volume, language, and font size.
+- **User preference settings** for speech engine on/off, rate, volume and font size.
 - **Login persistence** for Chess.com so you don’t need to log in every time.
+- **Multilingual support**: support English, Traditional Chinese and Simplified Chinese
 
 ## Demonstration Video
 
@@ -22,9 +23,9 @@ A demonstration video will be available soon.
 ## Quick Start (Windows)
 
 1. Download the latest release from:
-
-2. Unzip the file.
-3. Double click `HelloChessBot.exe` to launch.
+   https://drive.google.com/file/d/11FPgc8tcIy9gntssVoHUmnMsErMZ8J0Q/view?usp=sharing
+3. Unzip the file.
+4. Double click `HelloChessBot.exe` to launch.
 
 ## Core Controls (Keyboard)
 
@@ -68,30 +69,19 @@ After input, a confirmation dialog appears. Press **Enter/Space** to confirm, or
 - The bot announces the piece on the current square.
 - Press **Space** to select a piece, navigate to the destination, then press **Space** again to drop it.
 
-### 3) Voice Input
+### 3) Voice Input for ChatBot
 - Press **Ctrl + S** to start recording.
 - Press **Ctrl + S** again to stop and process the command.
 
-**Recommended move format**: “Move E2 to E4”.
-
-**Voice Keywords / Examples**
-- **Select computer mode**: “computer”, “bot”, “pvc”.
-- **Select online mode**: “online”, “player”, “pvp”.
-- **Select puzzle mode**: “puzzle”.
-- **Resign**: “resign”, “surrender”.
-- **Time control**: “5+0”, “5 minutes”, “10 plus 5”.
-- **Move**: any sentence containing a valid UCI move.
 
 ## Chat Bot Assistant
 
-Activate with **Ctrl + Q** or the Chat Bot button. It answers questions and performs actions by keywords such as:
+Activate with **Ctrl + Q** or the Chat Bot button. It answers questions and performs actions such as:
 
-- Greetings: “hi”, “hello”, “nice to meet you”.
-- Tutorials: “how to use”, “tutorial”, “help”.
-- Input modes: “voice input”, “arrow mode”, “command mode”.
-- Shortcuts: “shortcut”, “shortcuts”.
-- Options: “what options”, “options”.
-- Time control: “5+0”, “10 minutes”, “15 plus 10”.
+- **Select game mode**: computer game / online player game / puzzle mode
+- **In-game operation**: resign / undo last move / move piece / ask situation
+- **Page operation**: open setting / login / logout / return home page
+- **Ask help**
 
 ## In-Game Information & Tools
 
@@ -105,6 +95,7 @@ When in a match, you can navigate the interface to get:
 - **Macro View** to announce vulnerable pieces being attacked.
 - press **Current Game Analysis** to analyze current situation. It combines the strength of a professional chess engine with the explanatory ability of a Large Language Model (LLM).
 - **Undo Last Move**
+- **Current Game Analysis**: Explanation of current chessboard, suggested best move, evaluation score of both side
 
 ## Game End & Review
 
@@ -136,14 +127,6 @@ Open the settings menu to adjust:
 
 Settings are stored and restored automatically on launch.
 
-## Voice Input Dependencies
-
-The voice input function relies on the included `ffmpeg` tools and Whisper model file:
-
-- `ffmpeg/` folder (audio processing)
-- `small.en.pt` (Whisper model weights)
-
-Keep these files in the same folder as `HelloChessBot.exe` for proper operation.
 
 ## FAQ
 
@@ -161,6 +144,9 @@ No. Preferences are saved and restored on startup.
 
 **How do I remove the software?**
 Delete the application folder to remove it.
+
+**Why the chatbot keep report "server is closed, please try it later"？**
+Please contact pcheuk3-c@my.cityu.edu.hk to turn on the server
 
 **How can I report issues or suggestions?**
 Contact: pcheuk3-c@my.cityu.edu.hk
