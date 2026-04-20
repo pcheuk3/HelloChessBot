@@ -8,14 +8,14 @@ HelloChessBot is enhanced version of [NeoChessBot](https://github.com/lamekid123
 - **Keyboard-driven navigation** (tab/enter/space) suitable for screen-reader workflows.
 - **Multiple input methods**: command panel (UCI/SAN), arrow-board navigation, and voice input.
 - **Voice input** powered by the Whisper model for move commands and UI actions.
-- **(New Feature) AI Chat Bot assistant** that answers user questions and **performs requests**.
-- **(New Feature) Natural Language Chess Move Command**: Users can request chess moves through natural language.
 - **Multiple game modes**: support play vs computer, online opponents, and puzzle mode on chess.com.
 - **Game review and analysis** with move-by-move feedback and best-move hints.
 - **Macro view** to announce vulnerable pieces being attacked.
-- **(New Feature) Current Game Analysis** Combined with Stockfish engine to analyze chessboard situation
 - **User preference settings** for speech engine on/off, rate, volume and font size.
 - **(New Feature) Multilingual support**: support English, Traditional Chinese and Simplified Chinese
+- **(New Feature) AI Chat Bot assistant** that answers user questions and **performs requests**.
+- **(New Feature) Natural Language Chess Move Command**: Users can request chess moves through natural language.
+- **(New Feature) Current Game Analysis** Combined with Stockfish engine to analyze chessboard situation
 
 ## Demonstration Video
 
@@ -83,6 +83,7 @@ Activate with **Ctrl + Q** or the Chat Bot button. It answers questions and perf
 - **In-game operation**: resign / undo last move / move piece / ask situation
 - **Page operation**: open setting / login / logout / return home page
 - **Ask help**: guideline of using HelloChessBot
+
 **Chatbot is powered by gpt-5.2 on replicate, therefore tokens is limited. If tokens is run out, please contact the author.** 
 
 ## In-Game Information & Tools
