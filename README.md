@@ -149,7 +149,7 @@ No. Preferences are saved and restored on startup.
 Delete the application folder to remove it.
 
 **Why the chatbot keep report "server is closed, please try it later"？**
-Please contact pcheuk3-c@my.cityu.edu.hk to turn on the server
+You may need to set up the server yourself by download the file in branches "feature/fastapi-server-stockfish" and put your own API KEY.
 
 **How can I report issues or suggestions?**
 Contact: pcheuk3-c@my.cityu.edu.hk
